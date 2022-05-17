@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog Nafizyo Belajar NodeJS: Sebuah Permulaan
+title: "Blog Nafizyo Belajar NodeJS: Sebuah Permulaan"
 date: 2022-05-17
 ---
 
