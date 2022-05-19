@@ -18,6 +18,8 @@ Walaupun mengandungi "time", runtime sebenarnya lebih sesuai dikatakan sebagai s
 
 Enjin V8 inilah yang dimanfaatkan oleh seorang pembangun perisian bernama Ryan Dahl untuk mencipta Node.js.
 
+*Teroka lebih lagi tentang runtime; baca [rencana Codecademy ini](https://www.codecademy.com/article/introduction-to-javascript-runtime-environments).*
+
 Ryan Dahl: Pencipta Node.js
 ---------------------------
 
