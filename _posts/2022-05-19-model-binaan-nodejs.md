@@ -9,13 +9,19 @@ Node.js adalah sebuah runtime Javascript, binaannya bermodelkan sifat berasing m
 Model Binaan Node.js
 ====================
 
-Pembangunan web zaman milenium berkehendak kepada teknologi yang mempunyai [keserentakan](https://ms.wikipedia.org/wiki/Keserentakan_(sains_komputer)) yang lebih baik berbanding pelayan-pelayan web . Maka, kedua-dua sifat Node.js di atas menjadi ciri utama yang melayakkannya untuk menjadi jawapan kepada kehendak ini, malah memang pun Node.js dicipta untuk tujuan tersebut. Mari fahami lebih lanjut tentang kedua-duanya.
+Pembangunan web zaman milenium berkehendak kepada teknologi yang mempunyai [keserentakan](https://ms.wikipedia.org/wiki/Keserentakan_(sains_komputer)) yang lebih baik berbanding pelayan-pelayan web popular pada tahun 1990-an seperti PHP - Apache. Maka, kedua-dua sifat Node.js di atas menjadi ciri utama yang melayakkannya untuk menjadi jawapan kepada kehendak ini, malah memang pun Node.js dicipta untuk tujuan tersebut. Mari fahami lebih lanjut tentang kedua-duanya.
 
-Rujukan Node.js vs PHP (https://www.geeksforgeeks.org/php-vs-node-js/#:~:text=PHP%20scripts%20have%20an%20extension,Chrome's%20JavaScript%20Engine(V8).)
-Rujukan Node.js vs Apache (https://dev.to/emiliosp/nodejs-vs-apache-performance-battle-for-the-conquest-of-my-5c4n)
-GitHub ujian Node.js vs Apache (https://github.com/emilioSp/node-vs-apache)
+*Baca rencana tentang bandingan tahap keserentakan Node.js dengan Apache - [Nodejs vs Apache: Performance Battle For The Conquest Of My Heart](https://dev.to/emiliosp/nodejs-vs-apache-performance-battle-for-the-conquest-of-my-5c4n).*
+
+*Baca rencana tentang bandingan ciri-ciri Node.js dengan PHP - [PHP vs. Node.js - GeeksforGeeks](https://www.geeksforgeeks.org/php-vs-node-js/#:~:text=PHP%20scripts%20have%20an%20extension,Chrome's%20JavaScript%20Engine(V8)).*
 
 Node.js dan Asynchronous: Pengenalan Keberasingan Masa
 ------------------------------------------------------
 
-Sifat asynchronous (yang saya sebut berasing masa) membenarkan Node.js membuat pengendalian kerja secara *non-blocking*.
+Sifat asynchronous (yang saya sebut berasing masa) membenarkan Node.js mengendalikan kerja secara *non-blocking*. Andaikan seorang pelayan kedai makan yang mengambil pesanan dari 2 meja yang berbeza: yang pertama memesan nasi goreng dan yang kedua memesan air kosong. Air kosong siap dahulu jadi pesanan kedua dihidangkan dulu walaupun pesanan pertama datang lebih awal. 
+
+Asynchronous berlawanan dengan synchronous (saya sebut berturut masa) yang mengendalikan kerja secara *blocking*. Andaikan pelayan yang sama tadi dalam situasi yang sama, tetapi kali ini walaupun air kosong sudah siap tetapi pesanan pertama iaitu nasi goreng ditunggu dan dihantar olehnya terlebih dahulu.
+
+*Baca rencana ringkas yang menerangkan konsep ini secara mudah difahami - [What is Asynchronous - Definition from Techopedia](https://www.techopedia.com/definition/17757/asyncronous).*
+
+*Baca rajutan bergrafik tentang perbandingan asynchronous dengan syncronous - [Synchronous and Asynchronous Programming](https://twitter.com/Rapid_API/status/1527636774037639168?s=20&t=1DFr9gc_CwDenDr1y3b0vg).*
