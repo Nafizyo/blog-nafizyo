@@ -25,3 +25,21 @@ Asynchronous berlawanan dengan synchronous (saya sebut berturut masa) yang menge
 *Baca rencana ringkas yang menerangkan konsep ini secara mudah difahami - [What is Asynchronous - Definition from Techopedia](https://www.techopedia.com/definition/17757/asyncronous).*
 
 *Baca rajutan bergrafik tentang perbandingan asynchronous dengan syncronous - [Synchronous and Asynchronous Programming](https://twitter.com/Rapid_API/status/1527636774037639168?s=20&t=1DFr9gc_CwDenDr1y3b0vg).*
+
+Node.js dan Event-Driven: Pengenalan Pacuan Kejadian
+----------------------------------------------------
+
+Memetik dokumentasi, kebanyakan API teras Node dibina berpaksikan *"event-driven architecture in which certain kinds of objects (called "emitters") emit named events that cause Function objects ("listeners") to be called"*.
+
+Nampaknya 2 objek terlibat di sini, 1: penyiar, dan 2: pendengar. Gambaran besarnya di sini, semua objek yang menyiar tergolong dalam kelas eventEmitter. Penyiar menyiarkan kejadian yang berlaku, lalu pendengar bertindak balas. Itu sahaja.
+
+Untuk lebih daripada itu, yang pertama patut diketahui ialah ada 2 jenis kejadian, 1: kejadian asal, dan 2: kejadian buatan. Tetapi hanya kejadian buatan perlu disiarkan sendiri oleh pengatur. Ini dilaksanakan dengan fungsi eventEmitter.emit().
+
+Untuk membenarkan pengatur sendiri menetapkan hubungan antara kejadian dengan tindak balas, penyiar mendedahkan fungsi eventEmitter.on(). Patut diketahui yang bagi setiap kejadian, 1 atau lebih tindak balas boleh ditetapkan. Jika berbilang, tindak balas akan berjalan secara berturut masa supaya tiada race condition & ralat logik.
+
+Inilah yang dinamakan bermodelkan sifat berpacukan kejadian, dengan kata lain berseni binakan pacuan kejadian, atau juga di sesetengah tempat namanya dipacu kejadian. Dan inilah antara ciri unggul Node.js yang membenarkannya bekerja secara berasing masa.
+
+*Baca panduan modul Events di dokumentasi Node - [Events | Node.js v16.15.0 Documentation](https://nodejs.org/dist/latest-v16.x/docs/api/events.html#events)*
+
+
+
