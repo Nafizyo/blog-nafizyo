@@ -39,7 +39,7 @@ Untuk membenarkan pengatur sendiri menetapkan hubungan antara kejadian dengan ti
 
 Inilah yang dinamakan bermodelkan sifat berpacukan kejadian, dengan kata lain berseni binakan pacuan kejadian, atau juga di sesetengah tempat namanya dipacu kejadian. Dan inilah antara ciri unggul Node.js yang membenarkannya bekerja secara berasing masa.
 
-*Baca panduan modul Events di dokumentasi Node - [Events | Node.js v16.15.0 Documentation](https://nodejs.org/dist/latest-v16.x/docs/api/events.html#events)*
+*Baca panduan modul Events di dokumentasi Node - [Events | Node.js v16.15.0 Documentation](https://nodejs.org/dist/latest-v16.x/docs/api/events.html#events).*
 
 
 
