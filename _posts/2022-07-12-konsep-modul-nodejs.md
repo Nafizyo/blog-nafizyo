@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Model Binaan Node.js"
-date: 2022-05-19
+title: "Modul Node.js: Konsep, Jenis dan Contoh Modul Node.jsModul Node.js: Konsep, Jenis dan Contoh Modul Node.js"
+date: 2022-07-16
 ---
 
 Modul Node.js: Konsep, Jenis dan Contoh Modul Node.js
