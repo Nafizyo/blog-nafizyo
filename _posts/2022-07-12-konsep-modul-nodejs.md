@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Model Binaan Node.js"
+date: 2022-05-19
+---
+
 Modul Node.js: Konsep, Jenis dan Contoh Modul Node.js
 =====================================================
 
@@ -42,7 +48,7 @@ Pada tahun 2015, akhirnya Pertubuhan Pengeluar Komputer Eropah (Ecma Internation
 
 Maka, masalah pun selesai~
 
-Node.js lain sedikit: sejak diperkenalkan pada 2009 lagi ia menggunakan sistem CommonJS, dan terus menyokong CJS hingga sekarang sambil menambah sokongan terhadap ECMAScript. Dalam satu perkembangan, pada Mei 2020, Node.js v12.17.0 
+Node.js lain sedikit: sejak diperkenalkan pada 2009 lagi ia menggunakan sistem CommonJS, dan terus menyokong CJS hingga sekarang sambil menambah sokongan terhadap ECMAScript. Dalam satu perkembangan, pada Mei 2020, Node.js v12.17.0 telah dikemas kini dengan sokongan ESM yang lebih kukuh. Hal ini ditandakan dengan pengguguran flag `--experimental-modules` bagi modul ECMAScript.
 
 *Baca lebih lanjut tentang perbezaan CommonJS dengan ECMAScript dalam rencana ini - [CommonJS vs ES modules in Node.js](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/#:~:text=ES%20modules%20are%20the%20standard,encapsulating%20JavaScript%20code%20for%20reuse)*
 
@@ -57,8 +63,7 @@ Bagi modul setempat, pengatur perlu mengisi objek `module.exports` dengan fungsi
 
 Bagi modul pihak ketiga, Node.js menyimpan semuanya dalam sampul **node_modules** di root folder. Selain itu, berkas package.json di root folder menyimpan nama-nama modul dalam node_modules sebagai dependencies. Selebihnya, seperti modul teras, tiada keperluan untuk export modul pihak ketiga, hanya import.
 
-Penutup
--------
+Seterusnya
+----------
 
-
-
+Dengan sedikit kefahaman tentang modul Node.js ini, rencana seterusnya akan menumpukan kepada beberapa modul teras yang paling lazim sambil mencuba penerapan asas Node.js yang berkaitan dengannya. Insya Allah.
