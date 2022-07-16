@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Modul Node.js: Konsep, Jenis dan Contoh Modul Node.jsModul Node.js: Konsep, Jenis dan Contoh Modul Node.js"
+title: "Modul Node.js: Konsep, Jenis dan Contoh Modul Node.js"
 date: 2022-07-16
 ---
 
